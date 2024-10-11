@@ -1,0 +1,62 @@
+@media (max-width:1100px) {
+ 
+    main{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .image{
+        width: 90%;
+        text-align: center;
+
+    }
+    .img-portfolio{
+        height: 300px;
+        width: 300px;
+    }
+    .descrption{
+        width: 90%;
+    }
+
+}
+@media (max-width:749px){
+    .img-portfolio{
+        height: 250px;
+        width: 250px;
+    }
+    main .hint {
+        color: rgb(228 236 255);
+        font-size:1rem ;
+        letter-spacing: 1.2px;
+     }
+     main .big-text {
+         font-size: 45px;
+         font-weight: 900;
+     }
+     main .big-text .diff-color{
+        color: rgb(203 172 249);
+     }
+     main .desc{
+         font-size: 1.2rem;
+         
+     
+     }
+}
+@media (max-width:630px){
+    
+    main .hint {
+        color: rgb(228 236 255);
+        font-size:1rem ;
+        letter-spacing: 1.2px;
+     }
+     main .big-text {
+         font-size: 27px;
+         font-weight: 900;
+     }
+     main .big-text .diff-color{
+        color: rgb(203 172 249);
+     }
+     main .desc{
+         font-size: 1rem;
+     }
+}
